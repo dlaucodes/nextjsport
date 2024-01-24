@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Hero = () => {
   return (
     <div className='relative flex flex-col h-full w-full'>
@@ -9,8 +10,9 @@ const Hero = () => {
         loop
         className="rotate-180 absolute top-[-340px] left-0 z-[1] w-full h-full object-cover"
         >
-            <source src='/blachole.webm' type='video/webm' />
+            <source src="/blackhole.webm" type="video/webm" />
         </video>
+        hello this is the bg video
     </div>
   )
 }
