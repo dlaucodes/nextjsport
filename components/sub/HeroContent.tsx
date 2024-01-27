@@ -10,7 +10,7 @@ export const HeroContent = () => {
             <div className="h-full w-full flex flex-col gap-5 justifu-center m-auto text-start">
                 <motion.div
                     className="Welcome-box py-[15px] px-[4px] border border -[#7042f88b] opacity=[0.9]">
-                        Hello
+                        this will be the div that moves in
                     </motion.div>
             </div>
         </motion.div>
